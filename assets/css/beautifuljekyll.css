@@ -35,22 +35,46 @@ layout: null
   --mid-col: #808080;
 }
 
+/* Floating Theme Change Button */
 #theme-toggle {
   position: fixed;
-  top: 10px;
-  right: 10px;
-  padding: 10px;
-  background-color: var(--button-background-light);
-  color: var(--text-color-light);
-  border: none;
+  bottom: 1.5rem; /* Distance from the bottom of the viewport */
+  left: 1.5rem; /* Distance from the left of the viewport */
+  width: 3rem; /* Button width */
+  height: 3rem; /* Button height */
+  padding: 0; /* No padding inside the button */
+  font-size: 1.5rem; /* Font Awesome icon size */
+  border-radius: 50%; /* Circular shape */
+  background-color: #f0f0f0; /* Light background */
+  border: none; /* Remove default button border */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Slight shadow */
   cursor: pointer;
-  font-size: 16px;
-  z-index: 9999;
+  z-index: 9999; /* Keep it on top */
+  transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
 #theme-toggle:hover {
-  background-color: var(--button-background-dark);
-  color: var(--text-color-dark);
+  transform: scale(1.1); /* Slightly enlarge on hover */
+  background-color: #e0e0e0; /* Change background color on hover */
+}
+
+#theme-toggle:focus {
+  outline: none; /* Remove outline on focus */
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3); /* Custom shadow on focus */
+}
+
+/* Font Awesome icon adjustments */
+#theme-icon {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  line-height: 3rem; /* Center the icon vertically */
+}
+
+/* Adjust icon size if needed */
+#theme-toggle i {
+  font-size: 1.5rem; /* Adjust for your preference */
 }
 
 
@@ -233,7 +257,7 @@ img {
   line-height: 1.5;
   padding-top: 0.625rem;
   padding-bottom: 0.625rem;
-  font-size: 1.125rem;
+  font-size: 1.25rem;
 }
 
 .navbar-custom .navbar-brand-logo {
@@ -259,11 +283,14 @@ img {
 .navbar-custom.top-nav-short .navbar-brand-logo img,
 .navbar-custom.top-nav-short-permanent .navbar-brand-logo img {
   height: 2.5rem;
+  max-height: 60px; /* Increase the height */
+  max-width: auto; /* Keep the aspect ratio intact */
+  margin: 0.5rem auto; /* Adjust vertical alignment */
 }
 
 .navbar-custom .navbar-nav .nav-item {
   text-transform: uppercase;
-  font-size: 0.8125rem;
+  font-size: 0.75rem;
   letter-spacing: 0.0625rem;
 }
 
@@ -290,10 +317,6 @@ img {
 
 .navbar-custom .navbar-toggler[aria-expanded="true"] {
   background-color: rgba(0, 0, 0, 0.2);
-}
-
-.dropdown-toggle::after {
-  border-width: 0.4em;
 }
 
 @media (min-width: 1200px) {
@@ -465,10 +488,10 @@ img {
 /* --- Footer --- */
 
 footer {
-  padding: 1.875rem 0;
+  padding: 1rem 0; /* Reduced padding */
   border-top: 1px var(--footer-col) solid;
-  margin-top: 3.125rem;
-  font-size: 0.875rem;
+  margin-top: 2rem; /* Reduced margin */
+  font-size: 0.75rem; /* Reduced font size */
   background-color: var(--footer-col);
   {% if site.footer-img %}
     background-image: url({{ site.footer-img | relative_url }});
@@ -498,38 +521,42 @@ footer a:focus {
 footer .list-inline {
   margin: 0;
   padding: 0;
-  margin-bottom: 1.875rem;
+  margin-bottom: 1rem; /* Reduced margin */
 }
+
 footer .copyright {
   font-family: var(--header-font);
   text-align: center;
   margin-bottom: 0;
   margin-top: 0;
 }
+
 footer .theme-by {
   text-align: center;
-  margin: 0.625rem 0 0;
+  margin: 0.5rem 0 0; /* Reduced margin */
 }
+
 footer .footer-custom-content {
   text-align: center;
-  margin-bottom: 0.9375rem;
+  margin-bottom: 0.75rem; /* Reduced margin */
   font-family: var(--header-font);
 }
 
 @media (min-width: 768px) {
   footer {
-    padding: 3.125rem 0;
+    padding: 2.5rem 0; /* Reduced padding for larger screens */
   }
   footer .footer-links {
-    font-size: 1.125rem;
+    font-size: 1rem; /* Slightly smaller font size */
   }
   footer .copyright {
-    font-size: 1rem;
+    font-size: 0.875rem; /* Slightly smaller font size */
   }
   footer .footer-custom-content {
-    font-size: 1rem;
+    font-size: 0.875rem; /* Slightly smaller font size */
   }
 }
+
 
 /* --- Post preview (feed) --- */
 
@@ -724,7 +751,7 @@ footer .footer-custom-content {
 /* --- Post and page headers --- */
 
 .intro-header {
-  margin: 5rem 0 1.25rem;
+  margin: 8rem 0 2rem; /* Increased top and bottom margins */
   position: relative;
 }
 .intro-header.big-img {
@@ -733,14 +760,14 @@ footer .footer-custom-content {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  margin-top: 3.1875rem; /* The small navbar is 50px tall + 1px border */
-  margin-bottom: 2.1875rem;
+  margin-top: 5rem; /* Increased top margin */
+  margin-bottom: 4rem; /* Increased bottom margin */
 }
 nav.top-nav-short-permanent ~ header > .intro-header {
-  margin-top: 5rem;
+  margin-top: 8rem; /* Adjusted for larger header */
 }
 nav.top-nav-short-permanent ~ header > .intro-header.big-img {
-  margin-top: 3.1875rem;
+  margin-top: 5rem; /* Adjusted for larger header */
 }
 .intro-header.big-img .big-img-transition {
   position: absolute;
@@ -761,29 +788,29 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
 }
 .intro-header.big-img .page-heading,
 .intro-header.big-img .post-heading {
-  padding: 6.25rem 0;
+  padding: 10rem 0; /* Increased padding for larger height */
   color: #FFF;
   text-shadow: 1px 1px 3px #000;
 }
 .intro-header .page-heading h1 {
   margin-top: 0;
-  font-size: 3.125rem;
+  font-size: 4rem; /* Increased font size */
 }
 .intro-header .post-heading h1 {
   margin-top: 0;
-  font-size: 2.1875rem;
+  font-size: 3rem; /* Increased font size */
 }
 .intro-header .page-heading .page-subheading,
 .intro-header .post-heading .post-subheading {
-  font-size: 1.6875rem;
-  line-height: 1.1;
+  font-size: 2rem; /* Increased font size */
+  line-height: 1.2;
   display: block;
   font-family: var(--header-font);
   font-weight: 300;
-  margin: 0.625rem 0 0;
+  margin: 1rem 0 0; /* Adjusted margin */
 }
 .intro-header .post-heading .post-subheading {
-  margin-bottom: 1.25rem;
+  margin-bottom: 2rem; /* Increased bottom margin */
 }
 .intro-header.big-img .page-heading .page-subheading,
 .intro-header.big-img .post-heading .post-subheading {
@@ -800,8 +827,8 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
 .intro-header.big-img .img-desc {
   background: rgba(30, 30, 30, 0.6);
   position: absolute;
-  padding: 0.3125rem 0.625rem;
-  font-size: 0.6875rem;
+  padding: 0.5rem 1rem; /* Increased padding */
+  font-size: 0.75rem; /* Increased font size */
   color: #EEE;
   font-family: var(--header-font);
   right: 0;
@@ -810,35 +837,37 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
 }
 @media (min-width: 1200px) {
   .intro-header {
-    margin-top: 8.125rem;
+    margin-top: 10rem; /* Increased top margin for large screens */
   }
   .intro-header.big-img {
-    margin-top: 5.6875rem; /* Full navbar is small navbar + 20px padding on each side when expanded */
+    margin-top: 7rem; /* Adjusted for large screens */
   }
   .intro-header.big-img .page-heading,
   .intro-header.big-img .post-heading {
-    padding: 9.375rem 0;
+    padding: 12rem 0; /* Increased padding for larger height */
   }
   .intro-header .page-heading h1 {
-    font-size: 5rem;
+    font-size: 6rem; /* Larger font size for large screens */
   }
   .intro-header .post-heading h1 {
-    font-size: 3.125rem;
+    font-size: 4rem; /* Larger font size for large screens */
   }
   .intro-header.big-img .img-desc {
-    font-size: 0.875rem;
+    font-size: 1rem; /* Larger font size for image description */
   }
 }
 
 #header-gh-btns {
-  margin-bottom: 0.9375rem;
+  margin-bottom: 1.5rem; /* Increased spacing for buttons */
 }
 @media (max-width: 500px) {
   #header-gh-btns > iframe {
     display: block;
-    margin-bottom: 0.3125rem;
+    margin-bottom: 0.5rem; /* Adjusted margin for small screens */
   }
 }
+
+
 
 /* --- Pagination --- */
 
@@ -1077,7 +1106,6 @@ pre {
   display: block;
   margin: 0 auto;
 }
-
 /* Search bar */
 #beautifuljekyll-search-overlay {
   font-family: var(--header-font);
