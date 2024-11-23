@@ -17,11 +17,69 @@ layout: null
   --footer-text-col: {{ site.footer-text-col | default: "#777777" }};
   --footer-link-col: {{ site.footer-link-col | default: "#404040" }};
   --footer-hover-col: {{ site.footer-hover-col | default: "#0085A1" }};
+  /* Define default theme colors
+:root { */
+  --background-color-light: #ffffff;
+  --background-color-dark: #121212;
+  --text-color-light: #000000;
+  --text-color-dark: #ffffff;
+  --link-color-light: #1a73e8;
+  --link-color-dark: #8ab4f8;
+  --button-background-light: #f0f0f0;
+  --button-background-dark: #333333;
+/* } */
 
   /* common CSS variables */
   --body-font: 'Lora', 'Times New Roman', serif;
   --header-font: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   --mid-col: #808080;
+}
+
+#theme-toggle {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  padding: 10px;
+  background-color: var(--button-background-light);
+  color: var(--text-color-light);
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  z-index: 9999;
+}
+
+#theme-toggle:hover {
+  background-color: var(--button-background-dark);
+  color: var(--text-color-dark);
+}
+
+
+/* Apply light theme styles */
+body {
+  background-color: var(--background-color-light);
+  color: var(--text-color-light);
+}
+
+a {
+  color: var(--link-color-light);
+}
+
+button {
+  background-color: var(--button-background-light);
+}
+
+/* Add styles for dark theme */
+body.dark-theme {
+  background-color: var(--background-color-dark);
+  color: var(--text-color-dark);
+}
+
+body.dark-theme a {
+  color: var(--link-color-dark);
+}
+
+body.dark-theme button {
+  background-color: var(--button-background-dark);
 }
 
 /* --- General --- */
