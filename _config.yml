@@ -20,10 +20,10 @@ author: "Pragati Agrawal"
 ###############################################
 
 navbar-links:
-  Education: "aboutme"
-  Projects: "projects"
-  Experience: "experience"
-  Interests: "interests"
+  Education: "edu"
+  Projects: "proj"
+  Experience: "exp"
+  Interests: "int"
   Contact: "contact"
 
 ################
