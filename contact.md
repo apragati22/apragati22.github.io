@@ -9,7 +9,7 @@ I'm always open to connecting with like-minded individuals, collaborators, or an
 
 **Address:**  Room No. *B106*, Hall 6, IIT Kanpur
 
-Alternatively, you can use the form below to send me a direct message. I'll get back to you as soon as possible!
+Alternatively, you can use the link below to send me a direct message. I'll get back to you as soon as possible!
 
 <div class="contact-link">
   <a href="https://t.me/pragr789" target="_blank" rel="noopener noreferrer">
