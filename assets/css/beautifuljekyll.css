@@ -77,6 +77,85 @@ layout: null
   font-size: 1.5rem; /* Adjust for your preference */
 }
 
+/* General Styles */
+body {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Light Theme */
+body.light-theme {
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Dark Theme */
+body.dark-theme {
+  background-color: #121212;
+  color: #eee;
+}
+
+/* Project Cards */
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  margin: 30px;
+}
+
+/* Card Styles */
+.project-card {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+}
+
+/* Light Mode Card Styles */
+body.light-theme .project-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  color: #333;
+}
+
+body.light-theme .project-card h3 {
+  color: #222;
+}
+
+body.light-theme .project-card p {
+  color: #555;
+}
+
+body.light-theme .project-card a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+body.light-theme .project-card a:hover {
+  color: #004999;
+}
+
+/* Dark Mode Card Styles */
+body.dark-theme .project-card {
+  background-color: #2a2a2a;
+  border: 1px solid #444;
+  color: #eee;
+}
+
+body.dark-theme .project-card h3 {
+  color: #fff;
+}
+
+body.dark-theme .project-card p {
+  color: #bbb;
+}
+
+body.dark-theme .project-card a {
+  color: #4aa3ff;
+}
+
+body.dark-theme .project-card a:hover {
+  color: #3182d9;
+}
 
 /* Apply light theme styles */
 body {
