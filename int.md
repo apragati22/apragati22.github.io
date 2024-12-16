@@ -1,8 +1,6 @@
 ---
 layout: page
 title: Interests
-subtitle: Hobbie Time!
+subtitle: Me Time!
 ---
 
-Synth
-Badminton
