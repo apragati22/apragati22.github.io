@@ -56,7 +56,7 @@ subtitle: What all have I done so far?
 /* Adaptive background for dark themes */
 @media (prefers-color-scheme: dark) {
   .timeline-item .content {
-    background-color: rgba(90, 90, 90, 0.2); /* Soft grey for dark themes */
+    background-color: rgba(90, 90, 90, 0.3); /* Soft grey for dark themes */
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
   }
 }
@@ -72,6 +72,7 @@ subtitle: What all have I done so far?
 @media (prefers-color-scheme: dark) {
   .timeline-item.current .content {
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    background-color:  rgba(191, 187, 187, 0.1);
   }
 }
 
