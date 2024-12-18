@@ -46,7 +46,7 @@ subtitle: What all have I done so far?
 .timeline-item .content {
   margin-left: 60px; /* Offset content to the right */
   padding: 20px;
-  background-color: rgba(245, 245, 245, 0.9); /* Light grey for light themes */
+  background-color: rgba(245, 245, 245, 0.1); /* Light grey for light themes */
   border-radius: 10px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   width: 1000px; /* Fixed width for the content box */
@@ -61,21 +61,13 @@ subtitle: What all have I done so far?
   }
 }
 
+
 /* Special styling for the current IIT Kanpur box */
 .timeline-item.current .content {
   background-color: #ffffff; /* White background */
   border: 2px solid #3498db; /* Optional: Add a subtle border for emphasis */
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Stronger shadow for prominence */
 }
-
-/* Adaptive shadow for dark themes on the current box */
-@media (prefers-color-scheme: dark) {
-  .timeline-item.current .content {
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
-    background-color:  rgba(191, 187, 187, 0.1);
-  }
-}
-
 
 /* Date styling */
 .timeline-item .date {
@@ -143,7 +135,7 @@ subtitle: What all have I done so far?
     </div>
   </div>
 </div>
-
+<p>For resources related to IITK academia, please refer to my GitHub repos. I have created repositories for all of my course assignments and projects, and have also included notes for some of the courses.</p>
 
 </body>
 
