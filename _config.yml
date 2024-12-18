@@ -22,8 +22,9 @@ author: "Pragati Agrawal"
 navbar-links:
   Education: "edu"
   Projects: "proj"
-  Experience: "exp"
+  # Experience: "exp"
   Interests: "int"
+  Resume: "resume"
   Contact: "contact"
 
 ################
