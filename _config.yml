@@ -190,6 +190,13 @@ defaults:
     values:
       layout: "page"
 
+
+collections:
+  projects:
+    output: true # Ensures each project page is generated
+    permalink: /proj/:path/ # Sets the permalink for each project
+
+
 # Exclude these files from production site
 exclude:
   - CHANGELOG.md
