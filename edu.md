@@ -121,7 +121,7 @@ subtitle: What all have I done so far?
       <div class="date">2018 - 2022</div>
       <div class="school-name">Academic Global School (CBSE Board)</div>
       <div class="description">Completed secondary and senior secondary education with a focus on science subjects.</div>
-      <div class="description"> Grade: 99.4% </div>
+      <div class="description"> Grade: 99.4% (XII)</div>
     </div>
   </div>
 

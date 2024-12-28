@@ -9,10 +9,44 @@ language: Javascript
 domain: ["MERN Stack", "Software Development & Documentation"]
 # subtitle: "A billing system using the MERN stack with dynamic reports and a user-friendly interface."
 ---
-Under what circumstances should we step off a path? When is it essential that we finish what we start? If I bought a bag of peanuts and had an allergic reaction, no one would fault me if I threw it out. If I ended a relationship with a woman who hit me, no one would say that I had a commitment problem. But if I walk away from a seemingly secure route because my soul has other ideas, I am a flake?
+Billing 360 is a user-friendly website for small retailers that helps them to generate invoices, manage inventory, track customer debit and credit logs and also provides data-driven insights to help businesses grow efficiently. 
 
-The truth is that no one else can definitively know the path we are here to walk. It’s tempting to listen—many of us long for the omnipotent other—but unless they are genuine psychic intuitives, they can’t know. All others can know is their own truth, and if they’ve actually done the work to excavate it, they will have the good sense to know that they cannot genuinely know anyone else’s. Only soul knows the path it is here to walk. Since you are the only one living in your temple, only you can know its scriptures and interpretive structure.
+<!-- It minimizes the risk of manual billing errors, loss of records, and inefficient inventory management, addressing common challenges like misplaced registers, unnoticed long-standing stock, and improper handling of expiry-dated items. -->
 
-At the heart of the struggle are two very different ideas of success—survival-driven and soul-driven. For survivalists, success is security, pragmatism, power over others. Success is the absence of material suffering, the nourishing of the soul be damned. It is an odd and ironic thing that most of the material power in our world often resides in the hands of younger souls. Still working in the egoic and material realms, they love the sensations of power and focus most of their energy on accumulation. Older souls tend not to be as materially driven. They have already played the worldly game in previous lives and they search for more subtle shades of meaning in this one—authentication rather than accumulation. They are often ignored by the culture at large, although they really are the truest warriors.
+<strong>Supervisor:</strong> Prof. Indranil Saha, CSE dept, IIT Kanpur
 
-A soulful notion of success rests on the actualization of our innate image. Success is simply the completion of a soul step, however unsightly it may be. We have finished what we started when the lesson is learned. What a fear-based culture calls a wonderful opportunity may be fruitless and misguided for the soul. Staying in a passionless relationship may satisfy our need for comfort, but it may stifle the soul. Becoming a famous lawyer is only worthwhile if the soul demands it. It is an essential failure if you are called to be a monastic this time around. If you need to explore and abandon ten careers in order to stretch your soul toward its innate image, then so be it. Flake it till you make it.
+<strong>GitHub repo:</strong> <a href="https://github.com/Billing-360/Billing-360-Dev" target="_blank"><i class="fab fa-github"></i> Billing 360 </a>     |     <strong>Deployed Website:</strong> <a href="https://billing-360-dev-1.onrender.com/" target="_blank"><i class="fas fa-external-link-alt"></i> Billing 360 Website</a>
+
+I contributed to this project as a memeber of a team of 10 students, as part of a course project in the course CS253- Software Development & Operations during my 4th semester (2023-24-II). The project was developed from scratch in a plan-driven approach, using the MERN stack framework. This was also my first experience of documenting the requirements, design, implementation and user manual of the project. 
+
+### Key Features of the project:
+
+<ul style="list-style-type: square;">
+  <li><strong>PDF Invoice Generation:</strong> The invoice generated through our website automatically includes the taxes and discounts on the items. It can be previewed and then downloaded. </li> 
+  <li>Item 2</li>
+  <li>Item 3</li>
+</ul>
+
+### My Contributions to the project:
+
+<ul style="list-style-type: square;">
+  <li>Item 1</li>
+  <li>Item 2</li>
+  <li>Item 3</li>
+</ul>
+
+### Challenges Faced during the project:
+
+<ul style="list-style-type: square;">
+  <li>Item 1</li>
+  <li>Item 2</li>
+  <li>Item 3</li>
+</ul>
+
+### My Learnings from the project:
+
+<ul style="list-style-type: square;">
+  <li>Item 1</li>
+  <li>Item 2</li>
+  <li>Item 3</li>
+</ul>
